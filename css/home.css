@@ -44,6 +44,11 @@ body {
     display: flex;
 }
 
+.home-3, .home-4 {
+    align-items: center;
+    justify-content: center;
+}
+
 .home-4 {
     flex-direction: row-reverse;
 }
@@ -64,7 +69,7 @@ body {
 }
 
 .home-1-right {
-align-items: center;
+    align-items: center;
 }
 
 .image1 {
@@ -96,7 +101,7 @@ align-items: center;
 
 .home-2-box {
     width: 230px;
-    border: 5px solid black;
+    border: 2px solid black;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -111,6 +116,7 @@ align-items: center;
     text-transform: uppercase;
 }
 
+
 .home-2-image {
     background: grey;
     width: 80px;
@@ -118,8 +124,8 @@ align-items: center;
 }
 
 .home-3-left{
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,22 +136,30 @@ align-items: center;
 
 .home-3-right {
     width: 50%;
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: center;
+    justify-content: space-between;
+}
+
+.home-3-right > span > p {
+    margin-bottom: 10px;
+}
+
+.home-4-right > span > p {
+    margin-bottom: 10px;
 }
 
 .image2 {
-    width: 60%;
+    width: 70%;
     height: 70%;
     background: grey;
 }
 
 .home-4-left{
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -156,15 +170,18 @@ align-items: center;
 
 .home-4-right {
     width: 50%;
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     align-items: end;
-    justify-content: center;
+    justify-content: space-between;
+    text-align: right;
 }
 
+span
+
 .image3 {
-    width: 60%;
+    width: 70%;
     height: 70%;
     background: grey;
 }
@@ -179,9 +196,10 @@ align-items: center;
     margin-bottom: 10px;
 }
 
-.home-1 {
+
+/* .home-1, .home-2 {
     display: none;
-}
+} */
 
 
 
