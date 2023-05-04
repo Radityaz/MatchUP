@@ -63,3 +63,11 @@ body {
     height: 80%;
     background-color: grey;
 }
+
+.input {
+    width: 50%;
+}
+
+form {
+    display: flex;
+}
