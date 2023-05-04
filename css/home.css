@@ -1,0 +1,99 @@
+* {
+    outline: 1px solid red;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 2%;
+}
+
+.navbar {
+    overflow: hidden;
+    width: 96%;
+    height: 5vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-navbar, .right-navbar {
+    display: flex;
+}
+
+.left-navbar-button {
+    width: 70px;
+    margin-left: 5%;
+}
+
+.right-navbar-signup, .right-navbar-login {
+    width: 100px;
+    margin-left: 5%;
+}
+
+.logo {
+    background-color: grey;
+    width: 40px;
+    height: 100%;
+}
+
+.home-1, .home-2 {
+    background: white;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.home-1 {
+    /* display: none; */
+
+}
+
+.home-1-left, .home-1-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.home-1-right {
+align-items: center;
+}
+
+.image1 {
+    width: 50%;
+    height: 80%;
+    background-color: grey;
+}
+
+.home-2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-2-header {
+    text-align: center;
+}
+
+.home-2-content {
+    height: 50%;
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-2-box {
+    width: 20%;
+    background-color: grey;
+}
+
+
+
+
+
