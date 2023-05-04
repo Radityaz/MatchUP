@@ -50,6 +50,15 @@ body {
     justify-content: center;
 }
 
+.about-2-header {
+    position: relative;
+    margin-top: 10px;
+}
+
+.about-2-header > p {
+    margin-bottom: 15px;
+}
+
 .about-3 {
     background: white;
     height: 50vh;
@@ -90,4 +99,7 @@ body {
 
 .about-2-content {
     text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
 }
