@@ -81,6 +81,9 @@ align-items: center;
 
 .home-2-header {
     text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    
 }
 
 .home-2-content {
@@ -92,8 +95,26 @@ align-items: center;
 }
 
 .home-2-box {
-    width: 20%;
-    background-color: grey;
+    width: 230px;
+    border: 5px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    text-align: center;
+}
+
+.home-2-box > span > h4 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.home-2-image {
+    background: grey;
+    width: 80px;
+    height: 80px;
 }
 
 .home-3-left{
@@ -148,7 +169,19 @@ align-items: center;
     background: grey;
 }
 
+.home-1-button {
+    width: 40%;
+    padding: 5px 2px;
+    text-align: start;
+}
 
+.home-1-left > p {
+    margin-bottom: 10px;
+}
+
+.home-1 {
+    display: none;
+}
 
 
 
