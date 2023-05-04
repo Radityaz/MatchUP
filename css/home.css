@@ -33,11 +33,11 @@ body {
 
 .logo {
     background-color: grey;
-    width: 40px;
+    width: 50px;
     height: 100%;
 }
 
-.home-1, .home-2 {
+.home-1, .home-2, .home-3, .home-4 {
     background: white;
     height: 100vh;
     width: 100%;
@@ -45,10 +45,14 @@ body {
 
 }
 
-.home-1 {
-    /* display: none; */
-
+.home-4 {
+    flex-direction: row-reverse;
 }
+
+/* .home-1 {
+    display: none;
+
+} */
 
 .home-1-left, .home-1-right {
     width: 50%;
@@ -91,6 +95,58 @@ align-items: center;
 .home-2-box {
     width: 20%;
     background-color: grey;
+}
+
+.home-3-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.home-3-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.image2 {
+    width: 60%;
+    height: 70%;
+    background: grey;
+}
+
+.home-4-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.home-4-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.image3 {
+    width: 60%;
+    height: 70%;
+    background: grey;
 }
 
 
