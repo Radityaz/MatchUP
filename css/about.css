@@ -32,8 +32,8 @@ body {
 }
 
 .logo {
-    background-color: grey;
-    width: 50px;
+    background-color: white;
+    width: 30px;
     height: 100%;
 }
 
@@ -86,7 +86,6 @@ body {
     width: 200px;
     height: 200px;
     margin-bottom: 5%;
-    background-color: grey;
 }
 
 .image2 {
@@ -148,9 +147,25 @@ body {
     justify-content: center;
 }
 
+.images {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10%;
+}
+
 .image4 {
     height: 100%;
     width: 100%;
+    background-color: white;
+}
+
+h3, p {
+    text-align: center;
 }
 
 .footer-right {
