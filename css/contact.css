@@ -2,6 +2,7 @@
     outline: 1px solid red;
     margin: 0px;
     font-family: sans-serif;
+    overflow: hidden;
 }
 
 body {
@@ -64,10 +65,14 @@ body {
     background-color: grey;
 }
 
-.input {
-    width: 50%;
+.input-form {
+    width: 46%;
+    height: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 form {
     display: flex;
+    justify-content: space-between;
 }
