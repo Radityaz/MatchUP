@@ -52,9 +52,11 @@ body {
 
 .about-3 {
     background: white;
-    height: 50vh;
-    width: 50%;
+    height: 100vh;
+    width: 100%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 th {
@@ -107,6 +109,7 @@ th {
     width: 70%;
     display: flex;
     flex-direction: column;
+    margin-top: 10%;
 }
 
 /* .about-1, .about-2 {
@@ -125,6 +128,7 @@ th {
     width: 250px;
     margin-right: 5%;
     margin-left: 5%;
+    background-color: grey;
 }
 
 .about-3-button {
