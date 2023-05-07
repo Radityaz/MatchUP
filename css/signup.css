@@ -184,6 +184,10 @@
     background-color: grey;
     color: white;
     border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .hint {
