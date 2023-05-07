@@ -84,10 +84,11 @@
 .home1-left, .home1-right {
     width: 50%;
     height: 100%;
-    padding: 0px 5%;
+    padding: 0px 10%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    box-sizing: border-box;
 }
 
 .home1-right {
