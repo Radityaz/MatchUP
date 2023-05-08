@@ -188,9 +188,21 @@ option {
 .line {
     display: flex;
     align-items: center;
+    font-size: 0.8vw;
 }
 
 .access, .age {
+    margin-top: 3%;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid black;
+    width: 40%;
+    font-size: 0.8vw;
+    font-family: opensans-bold;
+}
+
+.slot-access {
     text-align: center;
     display: inline-block;
     border: 2px solid black;
