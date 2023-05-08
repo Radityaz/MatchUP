@@ -1,0 +1,66 @@
+* {
+    outline: 1px solid red;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    margin: 2%;
+}
+
+.sparring-1 {
+    overflow: hidden;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sparring-header {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back {
+    background-color: grey;
+    width: 40px;
+    height: 100%;
+}
+
+.report {
+    background-color: grey;
+    width: 40px;
+    height: 100%;
+}
+
+.sparring-2 {
+    background: white;
+    height: 100vh;
+    width: 100%;
+}
+
+.profile {
+    margin-top: 1%;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-image {
+    height: 100%;
+    width: 18vw;
+    /* border-radius: 100%; */
+    background-color: grey;
+}
+
+.edit-image {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
