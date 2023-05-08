@@ -1,236 +1,335 @@
-* {
-    outline: 1px solid red;
-    margin: 0px;
-    font-family: sans-serif;
+@font-face {
+    font-family: opensans;
+    src: url(Font/OpenSans-Regular.ttf);
 }
 
-body {
-    margin: 2%;
+@font-face {
+    font-family: opensans-bold;
+    src: url(Font/OpenSans-Bold.ttf);
 }
+
+* {
+    font-family: opensans;
+    /* outline: 1px solid red; */
+    margin: 0px;
+    padding: 0px;
+}
+
+/* === NAVBAR === */
 
 .navbar {
-    overflow: hidden;
-    width: 96%;
-    height: 5vh;
+    width: 100%;
+    height: 50px;
     position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    background: grey;
+}
+
+.navbar-left {
+    width: 50%;
+    display: flex
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.sign-up, .log-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 30px;
+    font-size: 12px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+}
+
+.log-in {
+    font-family: opensans-bold;
+}
+
+.navbar-left > a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.home {
+    font-family: opensans-bold;
+}
+
+/* === HOME 1 === */
+
+.home1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.home1-left, .home1-right {
+    width: 50%;
+    height: 100%;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.home1-right {
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+}
+
+.home1-left > p {
+    margin-bottom: 3%;
+}
+
+.home1-left > a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-family: opensans-bold;
+    background: grey;
+    width: 250px;
+    font-size: 12px;
+    height: 30px;
+    color: white;
+}
+
+.next {
+    height: 20px;
+    width: 20px;
+    background: white;
+}
+
+.image1 {
+    width: 400px;
+    height: 550px;
+    background: grey;
+}
+
+.image1-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 350px;
+    margin-left: 30px;
+    font-size: 15px;
+
+}
+
+.image1-button > a {
+    font-family: opensans-bold;
+    text-decoration: none;
+    color: black;
+}
+
+/* === HOME 2 === */
+
+.home2 {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home2-content {
+    margin-top: 5%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
 }
 
-.left-navbar, .right-navbar {
-    display: flex;
-}
-
-.left-navbar-button {
-    width: 70px;
-    margin-left: 5%;
-}
-
-.right-navbar-signup, .right-navbar-login {
-    width: 100px;
-    margin-left: 5%;
-}
-
-.logo {
-    background-color: grey;
-    width: 50px;
-    height: 100%;
-}
-
-.home-1, .home-2, .home-3, .home-4 {
-    background: white;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-}
-
-.home-3, .home-4 {
-    align-items: center;
-    justify-content: center;
-}
-
-.home-4 {
-    flex-direction: row-reverse;
-}
-
-/* .home-1 {
-    display: none;
-
-} */
-
-.home-1-left, .home-1-right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.home-1-right {
-    align-items: center;
-}
-
-.image1 {
-    width: 50%;
-    height: 80%;
-    background-color: grey;
-}
-
-.home-2 {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.home-2-header {
-    text-align: center;
+.box > span {
+    font-family: opensans-bold;
     text-transform: uppercase;
-    font-size: 20px;
-    color: #FE6B00;
-    
+    font-size: 17px;
 }
 
-.home-2-content {
-    height: 50%;
-    margin-top: 5%;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
+.box > p {
+    font-size: 12px;
 }
 
-.home-2-box {
-    width: 230px;
-    border: 2px solid #FE6B00;
+.box {
+    height: 400px;
+    width: 280px;
+    border: 3px solid black;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px;
-    text-align: center;
+    padding: 2%;
+    box-sizing: border-box;
 }
 
-.home-2-box > span > h4 {
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    color: #FE6B00;
+.box-image {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
 }
 
+ /* === HOME 3 === */
 
-.home-2-image {
-    background: grey;
-    width: 80px;
-    height: 80px;
-}
-
-.home-3-left{
-    width: 40%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.home-3-right {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-}
-
-.home-3-right > span > p {
-    margin-bottom: 10px;
-}
-
-.home-4-right > span > p {
-    margin-bottom: 10px;
-}
-
-.image2 {
-    width: 70%;
-    height: 70%;
-    background: grey;
-}
-
-.home-4-left{
-    width: 40%;
-    height: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-left: 2%;
-    padding-right: 2%;
-}
-
-.home-4-right {
-    width: 50%;
-    height: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    justify-content: space-between;
-    text-align: right;
-}
-
-span
-
-.image3 {
-    width: 70%;
-    height: 70%;
-    background: grey;
-}
-
-.home-1-button {
-    width: 40%;
-    padding: 5px 2px;
-    text-align: start;
-}
-
-.home-1-left > p {
-    margin-bottom: 10px;
-}
-
-.footer{
-    background: white;
-    height: 50vh;
+.home3 {
+    padding: 5%;
+    height: 75vh;
     width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
 }
 
-.footer-left {
-    width: 30%;
-    height: 100%;
+.image3 {
+    width: 350px;
+    height: 400px;
+    background-color: grey;
+    margin-right: 30px;
+}
+
+.home3-content > span {
+    display: block;
+}
+
+.home3-content {
     display: flex;
     flex-direction: column;
+
+}
+
+ /* === HOME 4 === */
+
+ .home4 {
+    padding: 5%;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .image4 {
-    height: 100%;
-    width: 100%;
+    width: 350px;
+    height: 400px;
+    background-color: grey;
+    margin-left: 30px;
+}
+
+.home4-content > span {
+    display: block;
+}
+
+.home4-content {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+/* === home5 === */
+
+.home5 {
+    color: white;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home5-box {
+    width: 80%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    box-sizing: border-box;
+    background-color: grey;
+}
+
+.image6 {
+    width: 50%;
+    height: 320px;
+    background-color: white;
+}
+
+.home3-btn > button{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 30px;
+    border: transparent;
+    margin-right: 20px;
+}
+
+/* === FOOTER === */
+
+.home-footer {
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-right {
-    width: 70%;
+    width: 80%;
     height: 100%;
     display: flex;
 }
 
 table {
     height: 100%;
-    width: 100%;
+    width: 50%;
 }
 
 th {
     text-align: left;
+}
+
+.footer-left {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+
+}
+
+.footer-left > p {
+    margin-top: 10px;
+}
+
+.footer-logo {
+    height: 90px;
+    width: 90px;
+    background-color: grey;
 }
 
 
