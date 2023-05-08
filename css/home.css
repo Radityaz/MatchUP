@@ -211,7 +211,7 @@
 }
 
 .image3 {
-    width: 350px;
+    width: 25%;
     height: 100%;
     background-color: grey;
     margin-right: 30px;
@@ -224,6 +224,7 @@
 .home3-content {
     display: flex;
     flex-direction: column;
+    width: 40%;
 
 }
 
@@ -241,7 +242,7 @@
 }
 
 .image4 {
-    width: 350px;
+    width: 25%;
     height: 100%;
     background-color: grey;
     margin-left: 30px;
@@ -256,6 +257,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    width: 40%;
 
 }
 
@@ -289,7 +291,7 @@
     text-decoration: none;
     background-color: white;
     color: black;
-    width: 120px;
+    width: 40%;
     height: 30px;
     border: transparent;
     margin-right: 20px;
