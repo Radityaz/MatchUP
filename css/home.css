@@ -76,6 +76,7 @@
 /* === HOME 1 === */
 
 .home1 {
+    padding-top: 2%;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -149,6 +150,8 @@
 /* === HOME 2 === */
 
 .home2 {
+    padding: 5%;
+    box-sizing: border-box;
     text-align: center;
     width: 100%;
     height: 100vh;
@@ -160,6 +163,7 @@
 
 .home2-content {
     margin-top: 5%;
+    height: 100%;
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -168,15 +172,15 @@
 .box > span {
     font-family: opensans-bold;
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 1.2vw;
 }
 
 .box > p {
-    font-size: 12px;
+    font-size: 0.8vw;
 }
 
 .box {
-    height: 400px;
+    height: 100%;
     width: 280px;
     border: 3px solid black;
     border-radius: 8px;
@@ -197,7 +201,7 @@
  /* === HOME 3 === */
 
 .home3 {
-    padding: 5%;
+    padding: 2%;
     height: 75vh;
     width: 100%;
     display: flex;
@@ -208,7 +212,7 @@
 
 .image3 {
     width: 350px;
-    height: 400px;
+    height: 100%;
     background-color: grey;
     margin-right: 30px;
 }
@@ -226,7 +230,7 @@
  /* === HOME 4 === */
 
  .home4 {
-    padding: 5%;
+    padding: 2%;
     height: 75vh;
     width: 100%;
     display: flex;
@@ -238,7 +242,7 @@
 
 .image4 {
     width: 350px;
-    height: 400px;
+    height: 100%;
     background-color: grey;
     margin-left: 30px;
 }
@@ -266,18 +270,18 @@
 }
 
 .home5-box {
-    width: 80%;
+    width: 70%;
     height: 65%;
     display: flex;
     align-items: center;
-    padding: 5%;
+    padding: 2%;
     box-sizing: border-box;
     background-color: grey;
 }
 
 .image6 {
     width: 50%;
-    height: 320px;
+    height: 90%;
     background-color: white;
 }
 
@@ -312,6 +316,7 @@ table {
 
 th {
     text-align: left;
+    font-size: 0.8vw;
 }
 
 .footer-left {
@@ -334,9 +339,16 @@ th {
     background-color: grey;
 }
 
+/* === WHITE SPACE === */
+
+.white-space {
+    height: 10vh;
+}
 
 /* .home-1, .home-2 {
     display: none;
 } */
+
+
 
 
