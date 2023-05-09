@@ -143,8 +143,8 @@ option {
     width: 92%;
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: repeat(1, 300px);
-    gap: 15px;
+    grid-template-rows: repeat(1, 55%);
+    column-gap: 15px;
 
 }
 
@@ -197,6 +197,7 @@ option {
     border: 2px solid black;
     width: 80px;
     font-family: opensans-bold;
+    font-size: 0.8vw;
 }
 
 .bottom-icon {
