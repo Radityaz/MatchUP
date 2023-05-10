@@ -70,9 +70,6 @@ body {
 .right-content {
     margin-top: 10%;
     width: 35%;
-    height: 100vh;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-    padding: 2%;
     box-sizing: border-box;
 }
 
@@ -168,7 +165,13 @@ hr {
 
 /* === RIGHT CONTENT === */
 
-.right-content > button {
+.right-content > div {
+    padding: 5%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.right-content > div > button {
     height: 50px;
     width: 100%;
     text-transform: uppercase;
@@ -179,13 +182,13 @@ hr {
     border: transparent;
 }
 
-.right-content > .biaya {
+.right-content > div > .biaya {
     font-size: 1.2vw;
     font-family: opensans;
     color: grey;
 }
 
-.right-content > .harga {
+.right-content > div > .harga {
     font-size: 2.8vw;
     font-family: opensans-bold;
     margin-bottom: 5%;
@@ -216,4 +219,41 @@ hr {
     background-color: grey;
     margin-right: 2%;
 
+}
+
+/* === RIGHT MEMEBER === */
+
+.right-content > .member {
+    margin-top: 5%;
+    padding: 5%;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    height: 60vh;
+
+}
+
+.right-content > .member > span > {
+    font-size: 3vw;
+    font-family: opensans;
+    color: grey;
+}
+
+.member-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-bottom {
+    margin-top: 2%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 5%;
+    overflow-y: auto;
+}
+
+.member1 {
+    background-color: lightgrey;
+    height: 12vh;
 }
