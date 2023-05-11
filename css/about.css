@@ -29,7 +29,6 @@
 .logo {
     width: 50px;
     height: 50px;
-    background: grey;
 }
 
 .navbar-left {
@@ -88,7 +87,6 @@
 .image1 {
     height: 250px;
     width: 250px;
-    background-color: grey;
     margin-bottom: 30px;
 }
 
@@ -171,7 +169,7 @@
 .image3 {
     width: 400px;
     height: 60vh;
-    background-color: grey;
+ 
 }
 
 .about3-content > p, li {
@@ -277,7 +275,7 @@
 .box-image {
     width: 100px;
     height: 100px;
-    background-color: grey;
+    background-color: #FE6B00;
 }
 
 /* === home5 === */
@@ -297,7 +295,7 @@
     align-items: center;
     padding: 2%;
     box-sizing: border-box;
-    background-color: grey;
+    background-color: #FE6B00;
 }
 
 .image6 {
@@ -309,7 +307,7 @@
 .home3-btn > button{
     text-decoration: none;
     background-color: white;
-    color: black;
+    color: #FE6B00;
     width: 40%;
     height: 30px;
     border: transparent;
@@ -358,7 +356,6 @@ th {
 .footer-logo {
     height: 90px;
     width: 90px;
-    background-color: grey;
 }
 
 /* === WHITE SPACE === */

@@ -36,7 +36,6 @@ body {
 .logo {
     width: 50px;
     height: 50px;
-    background: grey;
 }
 
 .navbar-left {
@@ -116,7 +115,7 @@ body {
     text-transform: uppercase;
     color: white;
     width: 220px;
-    background: grey;
+    background: #FE6B00;
     font-size: 15px;
 }
 
