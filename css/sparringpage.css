@@ -203,6 +203,11 @@ option {
     font-family: opensans-bold;
 }
 
+.access {
+    border: solid #FE6B00;
+    color: #FE6B00;
+}
+
 .bottom-icon {
     display: inline-block;
     height: 20px;
