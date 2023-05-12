@@ -10,7 +10,7 @@
 
 * {
     font-family: opensans;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0px;
     padding: 0px;
 }
@@ -62,8 +62,22 @@ body {
     border-radius: 100%;
 }
 
+.dots {
+    font-family: opensans-bold;
+    height: 40px;
+    width: 10px;
+    background-color: grey;
+}
+
 .sparring {
     font-family: opensans-bold;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 4%;
 }
 
 /* === BANNER === */
@@ -142,8 +156,8 @@ option {
     width: 92%;
     display: grid;
     grid-template-columns: repeat(4 , 1fr);
-    grid-template-rows: repeat(1, 55%);
     column-gap: 15px;
+    row-gap: 15px;
 
 }
 
