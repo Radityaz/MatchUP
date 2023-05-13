@@ -82,13 +82,14 @@ body {
 
 .banner {
     color: white;
-    height: 60%;
+    height: 70%;
     background: grey;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: opensans-bold;
     font-size: 25px;
+
 }
 
 /* === SEARCH === */
@@ -97,16 +98,13 @@ body {
     display: flex;
     align-items: center;
     width: 26%;
+
 }
 
-.icon-box {
-    width: 25px;
-    height: 25px;
-    background-color: grey;
-    margin-left: 1%;
-    position: absolute;
+.input-box > input, select {
+    border-radius: 10px;
+    border: 2px solid grey;
 }
-
 .sparring-search {
     padding-top: 3%;
     width: 92%;
@@ -118,8 +116,10 @@ body {
     text-transform: uppercase;
     color: white;
     width: 220px;
-    background: grey;
-    font-size: 15px;
+    border: transparent;
+    font-family: opensans-bold;
+    border-radius: 10px;
+    background: #FE6B00;
 }
 
 input, option {
@@ -198,10 +198,21 @@ option {
     margin-right: 5px;
     text-align: center;
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 40%;
     font-size: 0.8vw;
     font-family: opensans-bold;
+    border-radius: 5px;
+}
+
+.access {
+    border: 3px solid #FE6B00;
+    color: #FE6B00;
+}
+
+.age {
+    color: #8F8F8F;
+    border: solid #8F8F8F;
 }
 
 .slot-access {
@@ -236,7 +247,7 @@ option {
     bottom:0px;
     right:0px;
     margin: 0px 3% 3% 0px;
-    background-color: grey;
+    background-color: #FE6B00;
     border-radius: 100%;
     display: flex;
     align-items: center;

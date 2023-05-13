@@ -79,7 +79,7 @@ body {
 
 .banner {
     color: white;
-    height: 60%;
+    height: 70%;
     background: grey;
     display: flex;
     justify-content: center;
@@ -94,6 +94,11 @@ body {
     display: flex;
     align-items: center;
     width: 26%;
+}
+
+.input-box > input, select {
+    border-radius: 10px;
+    border: 2px solid grey;
 }
 
 .icon-box {
@@ -115,8 +120,10 @@ body {
     text-transform: uppercase;
     color: white;
     width: 220px;
-    background: grey;
-    font-size: 15px;
+    border: transparent;
+    font-family: opensans-bold;
+    border-radius: 10px;
+    background: #FE6B00;
 }
 
 input, option {
@@ -170,18 +177,26 @@ option {
     text-align: left;
 }
 
+.box-top {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
 .box-bottom {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: left;
 }
 
 .box-logo {
     height: 80px;
     width: 80px;
-    background-color: grey;
     border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 
 .line {
@@ -190,13 +205,15 @@ option {
     font-size: 0.8vw;
 }
 
-.access, .age {
+.access {
     text-align: center;
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid #FE6B00;
+    color: #FE6B00;
     width: 80px;
     font-family: opensans-bold;
     font-size: 0.8vw;
+    border-radius: 5px;
 }
 
 .bottom-icon {
@@ -222,7 +239,7 @@ option {
     bottom:0px;
     right:0px;
     margin: 0px 3% 3% 0px;
-    background-color: grey;
+    background-color: #FE6B00;
     border-radius: 100%;
     display: flex;
     align-items: center;
