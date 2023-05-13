@@ -120,7 +120,10 @@
 .next {
     height: 20px;
     width: 20px;
-    background: white;
+    background-image: url(img/next.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .image1 {
@@ -181,7 +184,7 @@
 .box {
     height: 100%;
     width: 280px;
-    border: 3px solid black;
+    border: 3px solid orange;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -192,8 +195,8 @@
 }
 
 .box-image {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
 }
 
  /* === HOME 3 === */
@@ -212,6 +215,10 @@
     width: 25%;
     height: 100%;
     margin-right: 30px;
+    background-image: url(img/jadijuara.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .home3-content > span {
@@ -236,12 +243,18 @@
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
+
 }
 
 .image4 {
     width: 25%;
     height: 100%;
     margin-left: 30px;
+    background-image: url(img/kompetitif.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
 }
 
 .home4-content > span {
@@ -281,6 +294,10 @@
     width: 50%;
     height: 90%;
     background-color: white;
+    background-image: url(img/aboutimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .home3-btn > button{
