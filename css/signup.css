@@ -31,6 +31,9 @@
     height: 50px;
     background: grey;
     border: transparent;
+    background: url(img/back\ button.png);
+    background-position: center;
+    background-repeat:  no-repeat;
 }
 
 .navbar-left {
@@ -105,6 +108,9 @@
     font-size: 25px;
     font-family: opensans-bold;
     color: white;
+    background: url(img/log-banner.png);
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -116,6 +122,7 @@
     padding-left: 50px;
     background-color: #EEEEEE;
     border: transparent;
+    border-radius: 5px;
 }
 
 .costume-input {
@@ -126,6 +133,7 @@
     padding-left: 50px;
     background-color: #EEEEEE;
     border: transparent;
+    border-radius: 5px 0px 0px 5px;
 }
 
 .container {
@@ -151,6 +159,7 @@
     width: 100%;
     margin-top: 50px;
 
+
 }
 
 .costume-input-container {
@@ -171,8 +180,8 @@
 }
 
 .costume-input-box> button {
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     background: grey;
     border: transparent;
 }
@@ -181,8 +190,9 @@
     width: 80%;
     height: 50px;
     font-size: 18px;
-    background-color: grey;
+    background-color: #FE6B00;
     color: white;
+    border-radius: 5px;
     border: transparent;
     display: flex;
     justify-content: center;
