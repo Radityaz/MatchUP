@@ -205,17 +205,27 @@ option {
     font-size: 0.8vw;
 }
 
-.access {
+.access, .age {
+    margin-top: 3%;
+    margin-right: 5px;
     text-align: center;
     display: inline-block;
-    border: 3px solid #FE6B00;
-    color: #FE6B00;
-    width: 80px;
-    font-family: opensans-bold;
+    border: 3px solid black;
+    width: 40%;
     font-size: 0.8vw;
+    font-family: opensans-bold;
     border-radius: 5px;
 }
 
+.access {
+    border: 3px solid #FE6B00;
+    color: #FE6B00;
+}
+
+.age {
+    color: #8F8F8F;
+    border: solid #8F8F8F;
+}
 .bottom-icon {
     display: inline-block;
     height: 20px;
