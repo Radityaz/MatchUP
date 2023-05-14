@@ -30,6 +30,9 @@
     margin-left: 8%;
     width: 50px;
     height: 50px;
+    background: url(img/back\ button.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .navbar-left {
@@ -102,7 +105,22 @@
     align-items: flex-end;
     justify-content: flex-end;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: url(img/tyotapiyanggaming.png);
+    background-position: center;
+    background-size: contain;
 
+}
+
+.setting {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    margin-left: 16%;
+    border-radius: 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: url(img/setting.jpg);
+    background-size: contain;
+    background-position: center;
 }
 
 .edit-image {
@@ -140,6 +158,8 @@
     margin-top: 20px;
     font-size: 0.9vw;
     color: grey;
+    width: 50%;
+    text-align: center;
 }
 
 .content-bottom {
@@ -165,7 +185,9 @@
     text-align: center;
     font-size: 1.4vw;
     font-family: opensans-bold;
-    border: 2px solid black;
+    border: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
 }
 
 .box-button {
@@ -181,7 +203,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: white;
+
 }
 
 .medal-logo {
@@ -189,6 +214,30 @@
     height: 100px;
     width: 100px;
     background-color: grey;
+    background: url(img/achievement.png);
+    background-size: contain;
+    background-position: center;
+}
+
+.tim-logo {
+    
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    background: url(img/pxg.png);
+    border-radius: 100%;
+    background-size: contain;
+    background-position: center;
+}
+
+.olahraga-logo {
+    
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    background: url(img/futsal.jpg);
+    background-size: contain;
+    background-position: center;
 }
 
 .medal-box > span {
