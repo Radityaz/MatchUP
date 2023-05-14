@@ -10,7 +10,7 @@
 
 * {
     font-family: opensans;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     margin: 0px;
     padding: 0px;
 }
@@ -126,7 +126,7 @@ body {
 }
 
 .sparring-search {
-    padding-top: 3%;
+    padding-top: 5%;
     width: 92%;
     display: flex;
     justify-content: space-between;
@@ -272,4 +272,20 @@ option {
     font-size: 30px;
     font-family: opensans-bold;
     text-decoration: none;
+}
+
+/* === EDIT === */
+
+.edit-data {
+    height: 40px;
+    width: 80px;
+    position: absolute;
+}
+
+.edit-button {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: grey;
+    display: inline;
 }

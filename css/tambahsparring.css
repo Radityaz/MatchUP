@@ -199,6 +199,30 @@ body {
     padding-left: 2%;
 }
 
+/* === INFORMATION === */
+
+.information-container {
+    padding: 1%;
+    box-sizing: border-box;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.3fr 1fr;
+    column-gap: 2%;
+    row-gap: 5%;
+}
+
+.info4 {
+    grid-column: 1/4;
+}
+
+.information-container > input {
+    background: #EEEEEE;
+    border: transparent;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+
 /* === ADD === */
 
 .add-button {

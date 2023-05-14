@@ -61,7 +61,7 @@
     font-family: opensans-bold;
 }
 
-.navbar-left > .home, .tentang, .kontak {
+.navbar-left > .home, .tentang, .kontak, .mabar {
     font-size: 12px;
     text-transform: capitalize;
     color: black;
