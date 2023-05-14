@@ -83,8 +83,8 @@ hr {
 /* === Left1 === */
 
 .left1 {
-    padding-top: 50px;
-    height: 40vh;
+    padding-top: 60px;
+    height: 30vh;
     display: flex;
     align-items: center;
 }
@@ -175,6 +175,7 @@ hr {
     color: white;
     background-color: #FE6B00;
     border: transparent;
+    border-radius: 8px;
 }
 
 .right-content > .biaya {
@@ -198,16 +199,26 @@ hr {
 }
 
 .access, .age {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-right: 5px;
     text-align: center;
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 30%;
     font-size: 0.9vw;
     font-family: opensans-bold;
+    border-radius: 5px;
 }
 
+.access {
+    border: 3px solid #FE6B00;
+    color: #FE6B00;
+}
+
+.age {
+    color: #8F8F8F;
+    border: solid #8F8F8F;
+}
 .line1 > .icon {
     height: 20px;
     width: 20px;
