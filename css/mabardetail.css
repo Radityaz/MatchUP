@@ -43,7 +43,6 @@ body {
 .navbar > a {
     width: 45px;
     height: 45px;
-    background: grey;
     font-size: 12px;
     text-transform: capitalize;
     color: black;
@@ -80,8 +79,8 @@ hr {
 /* === Left1 === */
 
 .left1 {
-    padding-top: 50px;
-    height: 40vh;
+    padding-top: 60px;
+    height: 30vh;
     display: flex;
     align-items: center;
 }
@@ -103,7 +102,9 @@ hr {
 .left1-logo {
     width: 100px;
     height: 100px;
-    background-color: grey;
+    background: url(img/Tyo.jpg);
+    background-position: center;
+    background-size: cover;
     border-radius: 100%;
     
 }
@@ -111,7 +112,6 @@ hr {
 .left1-icon {
     width: 20px;
     height: 20px;
-    background-color: grey;
     display: inline-block;
 }
 
@@ -178,8 +178,9 @@ hr {
     font-size: 1.2vw;
     font-family: opensans-bold;
     color: white;
-    background-color: grey;
+    background-color: #FE6B00;
     border: transparent;
+    border-radius: 8px;
 }
 
 .right-content > div > .biaya {
@@ -203,14 +204,25 @@ hr {
 }
 
 .access, .age {
-    margin-top: 3%;
+    margin-top: 2%;
     margin-right: 5px;
     text-align: center;
     display: inline-block;
-    border: 2px solid black;
+    border: 3px solid black;
     width: 30%;
     font-size: 0.9vw;
     font-family: opensans-bold;
+    border-radius: 5px;
+}
+
+.access {
+    border: 3px solid #FE6B00;
+    color: #FE6B00;
+}
+
+.age {
+    color: #8F8F8F;
+    border: solid #8F8F8F;
 }
 
 .line1 > .icon {
@@ -248,26 +260,42 @@ hr {
 .member-bottom {
     margin-top: 2%;
     height: 50vh;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(1 , 1fr);
-    grid-template-rows: repeat(auto);
-    gap: 5%;
+    grid-template-columns: 100%;
+    grid-template-rows: 10vh;
     overflow-y: auto;
+    gap: 15px;
 }
 
 .member1 {
-    background-color: lightgrey;
-    height: 12vh;
+    background-color: #F8F8F8;
+    height: 10vh;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 0% 3%;
     box-sizing: border-box;
+    border-radius: 8px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.host-logo {
+    box-sizing: border-box;
+    width: 60px;
+    height: 60px;
+    background: url(img/Tyo.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    
 }
 
 .member-logo {
     box-sizing: border-box;
     width: 60px;
     height: 60px;
-    background-color: grey;
+    background-color: #F8F8F8;
     border-radius: 100%;
+    
 }

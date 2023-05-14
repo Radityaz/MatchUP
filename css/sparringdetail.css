@@ -43,7 +43,6 @@ body {
 .navbar > a {
     width: 45px;
     height: 45px;
-
     font-size: 12px;
     text-transform: capitalize;
     color: black;
@@ -219,6 +218,7 @@ hr {
     color: #8F8F8F;
     border: solid #8F8F8F;
 }
+
 .line1 > .icon {
     height: 20px;
     width: 20px;
