@@ -140,6 +140,27 @@
     align-items: center;
 }
 
+.social {
+    margin-left: 10%;
+    position: absolute;
+    display: flex;
+    width: 100px;
+    justify-content: space-evenly;
+}
+
+.usertitle {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+.social > a {
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
 
 .content-logo {
     height: 150px;
@@ -149,7 +170,7 @@
     
 }
 
-.content-upper > h3 {
+.content-upper > .usertitle {
     margin-top: 20px;
     font-size: 1.4vw;
 }
