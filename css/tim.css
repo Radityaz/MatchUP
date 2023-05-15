@@ -105,6 +105,7 @@ body {
     border-radius: 10px;
     border: 2px solid grey;
 }
+
 .sparring-search {
     padding-top: 3%;
     width: 92%;
@@ -136,6 +137,14 @@ select {
 
 option {
     height: 500px;
+}
+
+.icon-box {
+    width: 25px;
+    height: 25px;
+    background-color: grey;
+    margin-left: 1%;
+    position: absolute;
 }
 
 /* === CONTAINER === */
